@@ -6,7 +6,7 @@ A **simple smartwatch** project based on **ESP32 + SSD1306 OLED display**. This 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 README.md : Project information
 software/ : Arduino code
@@ -22,7 +22,7 @@ Copia codice
 
 ---
 
-## 🛠 Hardware Used
+## Hardware Used
 
 - **ESP32 Dev Module**  
 - **OLED SSD1306 Display** (128x64, I2C)  
@@ -31,7 +31,7 @@ Copia codice
 
 ---
 
-## 💾 Software – Required Libraries
+## Software – Required Libraries
 
 Install via **Arduino Library Manager**:
 
@@ -40,7 +40,7 @@ Install via **Arduino Library Manager**:
 
 ---
 
-## ⚙️ Configuration – `software/config.h`
+## Configuration – `software/config.h`
 
 ```cpp
 #ifndef CONFIG_H
@@ -53,8 +53,12 @@ Install via **Arduino Library Manager**:
 #define BUTTON_PIN 0
 
 #endif
-⌚ Smartwatch Code – software/smartwatch.ino
-cpp
+
+```
+
+## Smartwatch Code – software/smartwatch.ino
+
+```cpp
 Copia codice
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -116,8 +120,12 @@ void updateScreen() {
 
   display.display();
 }
-🔌 Hardware Components – hardware/components.md
-md
+
+```
+
+## Hardware Components – hardware/components.md
+
+```md
 Copia codice
 # Hardware Components
 
@@ -138,8 +146,12 @@ Copia codice
 ## Button
 - One terminal to GPIO 0
 - Other terminal to GND
-📅 Roadmap – docs/roadmap.md
-md
+
+```
+
+## Roadmap – docs/roadmap.md
+
+```md
 Copia codice
 # Roadmap
 
@@ -148,7 +160,10 @@ Copia codice
 - [ ] Bluetooth BLE
 - [ ] Companion Android app
 - [ ] Sleep mode for power saving
-🚀 How to Use
+
+```
+
+## How to Use
 Clone this repository
 
 Open software/smartwatch.ino with Arduino IDE
@@ -158,4 +173,5 @@ Select ESP32 Dev Module
 Connect the ESP32 via USB
 
 Upload the code
+
 
