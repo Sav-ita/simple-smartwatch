@@ -142,12 +142,12 @@ void updateScreen() {
 | SDA -> GPIO 21 |
 | SCL -> GPIO 22 |
 
-![Connection](images/connection/connection.png)
-
 ## Button
 - One terminal to GPIO 0
 - Other terminal to GND
 
+```
+![Connection](images/connection/connection.png)
 ```
 
 ## Roadmap – docs/roadmap.md
@@ -173,6 +173,7 @@ Select ESP32 Dev Module
 Connect the ESP32 via USB
 
 Upload the code
+
 
 
 
