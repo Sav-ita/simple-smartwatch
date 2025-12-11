@@ -1,7 +1,6 @@
 # Simple Smartwatch
 
 [![Platform](https://img.shields.io/badge/platform-ESP32-blue)](https://www.espressif.com/en/products/socs/esp32)  
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 A **simple smartwatch** project based on **ESP32 + SSD1306 OLED display**. This project demonstrates a basic smartwatch interface including time, steps, and battery level.
 
@@ -159,3 +158,4 @@ Select ESP32 Dev Module
 Connect the ESP32 via USB
 
 Upload the code
+
