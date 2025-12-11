@@ -9,15 +9,17 @@ A **simple smartwatch** project based on **ESP32 + SSD1306 OLED display**. This 
 ## Project Structure
 
 README.md : Project information
-software/ : Arduino code
-├─ smartwatch.ino
-└─ config.h
-hardware/ : Components and wiring
-└─ components.md
-docs/ : Roadmap and future ideas
-└─ roadmap.md
 
-yaml
+software/ : Arduino code
+	smartwatch.ino
+	config.h
+
+hardware/ : Components and wiring
+	components.md
+
+docs/ : Roadmap and future ideas
+	roadmap.md
+
 Copia codice
 
 ---
@@ -173,5 +175,6 @@ Select ESP32 Dev Module
 Connect the ESP32 via USB
 
 Upload the code
+
 
 
