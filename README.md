@@ -147,7 +147,7 @@ void updateScreen() {
 - Other terminal to GND
 
 ```
-![Connection](images/connections/connections.png)
+<img src="images/watch-display.png" alt="Smartwatch Display" width="300">
 ```
 
 ## Roadmap – docs/roadmap.md
@@ -173,6 +173,7 @@ Select ESP32 Dev Module
 Connect the ESP32 via USB
 
 Upload the code
+
 
 
 
