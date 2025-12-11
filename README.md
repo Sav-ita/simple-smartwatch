@@ -20,7 +20,9 @@ hardware/ : Components and wiring
 docs/ : Roadmap and future ideas
 	roadmap.md
 
-
+images/ : Just Images
+	connections/ : //
+	connections.png how to connect all together
 ---
 
 ## Hardware Used
@@ -172,6 +174,7 @@ Select ESP32 Dev Module
 Connect the ESP32 via USB
 
 Upload the code
+
 
 
 
