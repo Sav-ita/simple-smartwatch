@@ -20,7 +20,6 @@ hardware/ : Components and wiring
 docs/ : Roadmap and future ideas
 	roadmap.md
 
-Copia codice
 
 ---
 
@@ -72,7 +71,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 int currentScreen = 0;
 unsigned long lastUpdate = 0;
 
-void setup() {
+void setup(){
   pinMode(BUTTON_PIN, INPUT_PULLUP);
   Serial.begin(115200);
 
@@ -128,7 +127,6 @@ void updateScreen() {
 ## Hardware Components – hardware/components.md
 
 ```md
-Copia codice
 # Hardware Components
 
 ## Microcontroller
@@ -138,12 +136,13 @@ Copia codice
 - OLED SSD1306 128x64 (I2C)
 
 ## Connections
-| OLED | ESP32 |
-|-----|-------|
-| VCC | 3.3V |
-| GND | GND |
-| SDA | GPIO 21 |
-| SCL | GPIO 22 |
+| OLED -> ESP32 |
+| VCC -> 3.3V |
+| GND -> GND |
+| SDA -> GPIO 21 |
+| SCL -> GPIO 22 |
+
+//image//
 
 ## Button
 - One terminal to GPIO 0
@@ -154,7 +153,6 @@ Copia codice
 ## Roadmap – docs/roadmap.md
 
 ```md
-Copia codice
 # Roadmap
 
 - [ ] DS3231 RTC
@@ -175,6 +173,7 @@ Select ESP32 Dev Module
 Connect the ESP32 via USB
 
 Upload the code
+
 
 
 
